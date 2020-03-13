@@ -14,7 +14,7 @@
         `contains functions necessary for taxi analysis`
 * [ECE_143_Final_Project_1.pdf](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/ECE_143_Final_Project_1.pdf)
 * [ECE_143_Final_Visualizations_1.ipynb](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/ECE_143_Final_Visualizations_1.ipynb)
-* [main.py](https://github.com/hmeid/ECE-143-Project-Group-1/main.py)
+* [main.py](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/main.py)
 
 ### Dataset
 After cloning the repository, the first step in running this project is to get the data. To get the necessary dataset, run the following commands to download both the Uber and Yellow Taxi data. NOTE: These are large files and will take time to download!
