@@ -4,13 +4,13 @@
 
 ### File Structure
 * data/
-    * [get_data.py](https://github.com/hmeid/ECE-143-Project-Group-1/data/get_data.py)
+    * [get_data.py](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/data/get_data.py)
         `script to download data`
 * src/
     * \_\_init\_\_.py
-    * [uber.py](https://github.com/hmeid/ECE-143-Project-Group-1/src/uber.py)
+    * [uber.py](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/src/uber.py)
         `contains functions necessary for uber analysis`
-    * [taxi.py](https://github.com/hmeid/ECE-143-Project-Group-1/src/taxi.py)
+    * [taxi.py](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/src/taxi.py)
         `contains functions necessary for taxi analysis`
 * [ECE_143_Final_Project_1.pdf](https://github.com/hmeid/ECE-143-Project-Group-1/ECE_143_Final_Project_1.pdf)
 * [ECE_143_Final_Visualizations_1.ipynb](https://github.com/hmeid/ECE-143-Project-Group-1/ECE_143_Final_Visualizations_1.pdf)
