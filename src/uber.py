@@ -192,7 +192,7 @@ def produce_line_graph(df_viz):
 
 def plot_weekday_avg_speed(dataframe):
     '''
-    Plots the weekday average speec vs the hour of the day
+    Plots the weekday average speed vs the hour of the day
     :param: dataframe
     :type: pd.DataFrame
     '''
