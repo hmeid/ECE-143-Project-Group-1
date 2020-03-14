@@ -39,7 +39,6 @@
             and the hour of the day.
 
             most_popular_pickups_and_dropoff(df_uber): This function plots the 
-            
             most popular pick-ups and drop-offs.
         ```
     * [taxi.py](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/src/taxi.py)<br>
