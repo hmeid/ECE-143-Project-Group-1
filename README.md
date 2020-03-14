@@ -31,6 +31,7 @@ Along with Python 3.7.X, our project requires the following third-party modules:
 * matplotlib
 * seaborn
 * pyshp
+* plotly
 * shapely
 * descartes
 * sqlalchemy
