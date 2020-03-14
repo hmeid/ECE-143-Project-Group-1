@@ -22,7 +22,20 @@ After cloning the repository, the first step in running this project is to get t
 cd data
 python get_data.py
 ```
-This will add multiple .csv files and a shape directory into the data folder. Now it's time to analyze the data.
+This will add multiple .csv files and a shape directory into the data folder. The data folder should now have this structure: <br>
+* data/
+   * shape/
+   * get_data.py
+   * nyc.2017-01.csv
+   * nyc.2017-02.csv
+   * nyc.2017-03.csv
+   * nyc.2017-04.csv
+   * nyc.2017-05.csv
+   * nyc.2017-06.csv
+   * taxi_zones.zip
+   * uber_nyc_data.csv
+   
+Now it's time to analyze the data.
 
 ### Dependencies
 Along with Python 3.7.X, our project requires the following third-party modules:
