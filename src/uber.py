@@ -273,4 +273,5 @@ def most_popular_pickups_and_dropoff(df_uber):
     ax2.set_xticklabels(['0', '1M', '2M', '3M', '4M', '5M', '6M'])
     plt.tick_params(labelsize=12)
     plt.xlabel('Number of Trips per Destination Locations', fontsize = 16, color='black')
-    plt.show()
+    plt.show(block=False)
+    plt.pause(0.01)
