@@ -59,11 +59,13 @@
 
             draw_region_map(ax, sf, shp_dic, heat={}): Draws the boroughs of New York
 
-            draw_zone_map(ax, sf, shp_dic, heat={}, text=[], arrows=[]): Draws the PU and DO zones of New York.
+            draw_zone_map(ax, sf, shp_dic, heat={}, text=[], arrows=[]): Draws the PU and DO zones
+            of New York.
 
             plot_boroughs_zones(): Plots all the PU and DO zones in the boroughs of New York.
 
-            def plot_mostpickups_zones_boroughs(nyc_database): Plots a heatmap of the most popular PU and DO zones.
+            def plot_mostpickups_zones_boroughs(nyc_database): Plots a heatmap of the most popular
+            PU and DO zones.
         ```
 * [ECE_143_Final_Project_1.pdf](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/ECE_143_Final_Project_1.pdf)
 * [ECE_143_Final_Visualizations_1.ipynb](https://github.com/hmeid/ECE-143-Project-Group-1/blob/master/ECE_143_Final_Visualizations_1.ipynb)
