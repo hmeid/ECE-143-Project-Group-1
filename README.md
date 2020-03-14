@@ -33,7 +33,7 @@
 
             produce_line_graph(df_viz): Plots the number of trips vs. the days of the year.
 
-            plot_weekday_avg_speed(dataframe): Plots the weekday average speed vs the hour of the day.
+            plot_weekday_avg_speed(dataframe): Plots the weekday average speed vs. the hour of the day.
 
             produce_heatmap(df_viz): Creates heatmap of traffic speed over the days of the week
             and the hour of the day.
