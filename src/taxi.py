@@ -254,6 +254,8 @@ def plot_boroughs_zones():
     ax = plt.subplot(1, 2, 2)
     ax.set_title("Zones in NYC")
     draw_zone_map(ax, sf, shp_dic)
+    plt.show(block=False)
+    plt.pause(0.01)
 
 def plot_mostpickups_zones_boroughs(nyc_database):
     '''
@@ -304,3 +306,4 @@ def plot_mostpickups_zones_boroughs(nyc_database):
     ax = plt.subplot(1, 2, 2)
     ax.set_title("Boroughs with most drop-offs")
     draw_region_map(ax, sf, shp_dic, heat = DOcount)
+    plt.show()

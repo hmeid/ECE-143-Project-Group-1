@@ -165,7 +165,8 @@ def produce_bar_graph(df_viz):
 
 
     fig.subplots_adjust(hspace=0.4)
-    plt.show()
+    plt.show(block=False)
+    plt.pause(0.01)
 
 
 def produce_line_graph(df_viz):
@@ -188,11 +189,12 @@ def produce_line_graph(df_viz):
     plt.xlabel('Month', size=24)
     plt.ylabel('Number of Trips', size=24)
 
-    plt.show()
+    plt.show(block=False)
+    plt.pause(0.01)
 
 def plot_weekday_avg_speed(dataframe):
     '''
-    Plots the weekday average speec vs the hour of the day
+    Plots the weekday average speed vs the hour of the day
     :param: dataframe
     :type: pd.DataFrame
     '''
@@ -217,7 +219,8 @@ def plot_weekday_avg_speed(dataframe):
     plt.xlim(-0.5, 23.5)
     plt.tick_params(labelsize=14)
     plt.title('Weekday Average Speed per Hour of the Day - Highlight for Peak Traffic', fontsize = 16, color='k')
-    plt.show()
+    plt.show(block=False)
+    plt.pause(0.01)
 
 def produce_heatmap(df_viz):
     '''
@@ -270,4 +273,5 @@ def most_popular_pickups_and_dropoff(df_uber):
     ax2.set_xticklabels(['0', '1M', '2M', '3M', '4M', '5M', '6M'])
     plt.tick_params(labelsize=12)
     plt.xlabel('Number of Trips per Destination Locations', fontsize = 16, color='black')
-    plt.show()
+    plt.show(block=False)
+    plt.pause(0.01)

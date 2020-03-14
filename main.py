@@ -13,7 +13,9 @@ produce_line_graph(df_viz)
 
 # Traffic Distribution
 plot_weekday_avg_speed(df_viz)
-produce_heatmap(df_viz)
+
+# see Jupyter Notebook for this plot
+# produce_heatmap(df_viz)
 
 # Popular Pick-ups and Drop-offs
 most_popular_pickups_and_dropoff(df_uber)
@@ -24,3 +26,4 @@ nyc_database = create_engine('sqlite:///nyc_database1.db')
 load_to_database(nyc_database)
 plot_boroughs_zones()
 plot_mostpickups_zones_boroughs(nyc_database)
+plt.show()
